@@ -4,41 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Módulo 3 - Trilha HTML</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <div>   
+    <header>   
         <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+            <img src="assets/images/logo.png" width="200" alt="logotipo com o nome seu logo"/>
         </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main class="content">
+        <nav class="sidebar">
+            <h2>HTML</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a target="_self" href="index.html">Inicio</a></li>
+                <li><a target="_blank" href="https://www.dio.me/curso-html">Curso</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/c/CursoemV%C3%ADdeo/courses">Video </a></li>
+                <li><a target="_blank" href="https://www.w3schools.com/tags/default.asp">Cocumentação</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <section class="main">
+            <h2>História</h2>
+            <p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+            <p>Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP. Na época, a linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet), ganhou atenção mundial.</p>
+            <p>A linguagem foi definida em especificações formais na década de 1990, inspiradas nas propostas originais de Tim Berners-Lee em criar uma linguagem baseada em SGML para a Internet. A primeira publicação foi esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF, como uma aplicação formal para o SGML (com uma DTD em SGML definindo a gramática). A IETF criou um grupo de trabalho para o HTML no ano seguinte, e publicou o HTML 2.0 em 1995. Desde 1996, as especificações HTML vêm sendo mantidas, com o auxílio de fabricantes de software, pelo World Wide Web Consortium (W3C).[1] Apesar disso, em 2000 a linguagem tornou-se também uma norma internacional (ISO/IEC 15445:2000). A recomendação HTML 4.01 foi publicada no final de 1999 pelo W3C. Uma errata ainda foi lançada em 2001.</p>
+            <p>Várias versões HTML foram publicadas</p>
+            <table style="border: 1px black solid;">
+                <thead>
+                    <tr>
+                        <td>Versão</td>
+                        <td>Ano</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td>html</td>
+                       <td>1991</td>
+                    </tr>
+                    <tr>
+                       <td>html 2.0</td>
+                       <td>1995</td>
+                    </tr>
+                    <tr>
+                       <td>html 3.2</td>
+                       <td>1997</td>
+                    </tr>
+                    <tr>
+                       <td>html 4.01</td>
+                       <td>1999</td>
+                    </tr>
+                    <tr>
+                       <td>html 5</td>
+                       <td>2000 (atual)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
         <div class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Tags</a></li>
+                <li><a href="#">Estrutura básica</a></li>
+                <li><a href="#">Hiperligações</a></li>
+                <li><a href="#">Caracteres especiais e símbolos</a></li>
+                <li><a href="#">Referêcias</a></li>
             </ul>
         </div>
-    </div>
+    </main>
 
-    <div class="footer">
+    <footer class="footer">
 
-    </div>
+    </footer>
 </body>
 </html>
